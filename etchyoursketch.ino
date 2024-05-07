@@ -51,7 +51,7 @@ void loop() { 
   val2 = analogRead(potpin2);
   y = map(val2, 0,1023,0,64);
   //Serial.printl(x);
-  // Serial.println(y);
+  //Serial.println(y);
   display.drawPixel(x,y, SSD1306_WHITE);
   display.display();
 }
